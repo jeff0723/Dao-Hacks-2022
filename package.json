@@ -1,0 +1,23 @@
+{
+  "name": "@dao-hacks/monorepo",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "frontend:build": "yarn workspace @dao-hacks/frontend build",
+    "frontend:eject": "yarn workspace @dao-hacks/frontend eject",
+    "frontend:start": "yarn workspace @dao-hacks/frontend start",
+    "frontend:test": "yarn workspace @dao-hacks/frontend test",
+    "start": "yarn workspace @dao-hacks/frontend start",
+    "build": "yarn workspace @dao-hacks/frontend build",
+    "compile": "yarn workspace @dao-hacks/hardhat compile",
+    "test": "yarn workspace @dao-hacks/hardhat test",
+    "deploy": "yarn workspace @dao-hacks/hardhat deploy",
+    "coverage": "yarn workspace @dao-hacks/hardhat coverage",
+    "etherscan-verify": "yarn workspace @dao-hacks/hardhat etherscan-verify",
+    "frontend": "yarn workspace @dao-hacks/frontend",
+    "hardhat": "yarn workspace @dao-hacks/hardhat hardhat"
+  }
+}
